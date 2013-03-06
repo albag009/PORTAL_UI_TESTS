@@ -1,0 +1,63 @@
+<project basedir="." default="UI" name="Portal-Framework">
+    <property name="junit.output.dir" value="junit"/>
+	<property name="src" value="./src"/>
+	<property name="lib" value="./lib"/>
+	<property name="bin" value="./bin"/>
+	<property name="report" value="./report"/>
+	
+	<path id="Portal-Framework.classpath">
+	        <pathelement location="lib/junit-4.10.jar"/>
+	        <pathelement location="lib/selenium-server-standalone-2.28.0.jar"/>
+	        <pathelement location="bin"/>
+	</path>
+
+	
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <include name="*.java"/>
+            </fileset>
+        </copy>
+    </target>
+	
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+	
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+	
+	
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="Portal-Framework.classpath"/>
+        </javac>
+    </target>
+	
+    <target name="UI">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+        	<test name="portal.IAAS" todir="${junit.output.dir}"/>
+        	<test name="portal.KMTC" todir="${junit.output.dir}"/>
+            <test name="portal.USERS" todir="${junit.output.dir}"/>
+        	<test name="portal.ACCESS" todir="${junit.output.dir}"/>
+        	<classpath refid="Portal-Framework.classpath"/>
+        </junit>
+    </target>
+
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+	
+	
+</project>

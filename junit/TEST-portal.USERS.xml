@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="6" failures="0" hostname="SE-GALBANTO-LT1" name="portal.USERS" tests="15" time="71.368" timestamp="2013-02-15T22:58:03">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/C:/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="lib" value="./lib" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes" />
+    <property name="report" value="./report" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\eclipse\plugins\org.apache.ant_1.8.3.v20120321-1730" />
+    <property name="java.runtime.version" value="1.7.0_10-b18" />
+    <property name="user.name" value="galbantov" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre7\bin" />
+    <property name="ant.project.default-target" value="UI" />
+    <property name="ant.project.name" value="Portal-Framework" />
+    <property name="java.version" value="1.7.0_10" />
+    <property name="user.timezone" value="" />
+    <property name="bin" value="./bin" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="ant.file.Portal-Framework" value="C:\Users\galbantov\workspace\Portal-Framework\build.xml" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre7\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="src" value="./src" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jre7" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\galbantov\workspace\Portal-Framework\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="23.6-b04" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\eclipse\plugins\org.apache.ant_1.8.3.v20120321-1730\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/C:/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/scripts/" />
+    <property name="user.home" value="C:\Users\galbantov" />
+    <property name="ant.file.type.Portal-Framework" value="file" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\RSA SecurID Token Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\jEdit;C:\Program Files (x86)\Zend\MySQL51\bin;C:\Program Files (x86)\Zend\ZendServer\share\ZendFramework\bin;C:\Program Files (x86)\Zend\ZendServer\bin;C:\Program Files (x86)\Git\cmd;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner portal.USERS filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\galbantov\workspace\Portal-Framework\junit\TEST-portal.USERS.xml crashfile=C:\Users\galbantov\workspace\Portal-Framework\junitvmwatcher7025266180848569195.properties propsfile=C:\Users\galbantov\workspace\Portal-Framework\junit268607361182404370.properties" />
+    <property name="java.class.path" value="C:\Users\galbantov\workspace\Portal-Framework\lib\junit-4.10.jar;C:\Users\galbantov\workspace\Portal-Framework\lib\selenium-server-standalone-2.28.0.jar;C:\Users\galbantov\workspace\Portal-Framework\bin;C:\eclipse\plugins\org.apache.ant_1.8.3.v20120321-1730\lib\ant-launcher.jar;C:\eclipse\plugins\org.apache.ant_1.8.3.v20120321-1730\lib\ant.jar;C:\eclipse\plugins\org.apache.ant_1.8.3.v20120321-1730\lib\ant-junit.jar;C:\eclipse\plugins\org.apache.ant_1.8.3.v20120321-1730\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.3 compiled on February 26 2012" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="eclipse.pdebuild.home" value="/C:/eclipse/plugins/org.eclipse.pde.build_3.8.1.v20120725-202643/./" />
+    <property name="java.io.tmpdir" value="C:\Users\GALBAN~1\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\galbantov\workspace\Portal-Framework" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\Users\galbantov\workspace\Portal-Framework" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="C:\eclipse\plugins\org.apache.ant_1.8.3.v20120321-1730\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="UI" />
+  </properties>
+  <testcase classname="portal.USERS" name="PORTAL_USERS_001" time="20.534" />
+  <testcase classname="portal.USERS" name="PORTAL_USERS_002" time="0.269" />
+  <testcase classname="portal.USERS" name="PORTAL_USERS_003" time="0.1" />
+  <testcase classname="portal.USERS" name="PORTAL_USERS_004" time="0.347" />
+  <testcase classname="portal.USERS" name="PORTAL_USERS_005" time="0.354" />
+  <testcase classname="portal.USERS" name="PORTAL_USERS_006" time="0.663" />
+  <testcase classname="portal.USERS" name="PORTAL_USERS_007" time="3.881" />
+  <testcase classname="portal.USERS" name="PORTAL_USERS_008" time="5.357" />
+  <testcase classname="portal.USERS" name="PORTAL_USERS_009" time="0.303" />
+  <testcase classname="portal.USERS" name="PORTAL_USERS_010" time="0.434">
+    <error message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(.,&apos;User Properties&apos;)]/button[@class=&apos;new primary&apos;]&quot;}&#xa;Command duration or timeout: 16 milliseconds&#xa;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#xa;Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;&#xa;System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;&#xa;Session ID: ed5e65e4-60cd-42c4-8353-b6514ec79545&#xa;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#xa;Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=18.0.2}]" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(.,&apos;User Properties&apos;)]/button[@class=&apos;new primary&apos;]&quot;}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Session ID: ed5e65e4-60cd-42c4-8353-b6514ec79545
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=18.0.2}]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:302)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:387)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:294)
+	at portal.USERS.PORTAL_USERS_010(USERS.java:225)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(.,&apos;User Properties&apos;)]/button[@class=&apos;new primary&apos;]&quot;}
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8251)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8260)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10222)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10227)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10167)
+</error>
+  </testcase>
+  <testcase classname="portal.USERS" name="PORTAL_USERS_011" time="5.205">
+    <error message="Timed out after 5 seconds waiting for visibility of element located by By.xpath: //div[contains(.,&apos;User Properties&apos;)]/button[@class=&apos;new primary&apos;]&#xa;Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;&#xa;System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;&#xa;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for visibility of element located by By.xpath: //div[contains(.,&apos;User Properties&apos;)]/button[@class=&apos;new primary&apos;]
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:255)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:224)
+	at portal.USERS.PORTAL_USERS_011(USERS.java:241)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(.,&apos;User Properties&apos;)]/button[@class=&apos;new primary&apos;]&quot;}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Session ID: ed5e65e4-60cd-42c4-8353-b6514ec79545
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=18.0.2}]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:302)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:387)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:523)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:521)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:130)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(.,&apos;User Properties&apos;)]/button[@class=&apos;new primary&apos;]&quot;}
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8251)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8260)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10222)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10227)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10167)
+</error>
+  </testcase>
+  <testcase classname="portal.USERS" name="PORTAL_USERS_012" time="10.19">
+    <error message="Timed out after 5 seconds waiting for visibility of element located by By.xpath: //tr[@rel=&apos;null&apos;]/td[5]/a[@class=&apos;edit ss_sprite ss_pencil&apos;]&#xa;Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;&#xa;System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;&#xa;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for visibility of element located by By.xpath: //tr[@rel=&apos;null&apos;]/td[5]/a[@class=&apos;edit ss_sprite ss_pencil&apos;]
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:255)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:224)
+	at portal.USERS.PORTAL_USERS_012(USERS.java:268)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//tr[@rel=&apos;null&apos;]/td[5]/a[@class=&apos;edit ss_sprite ss_pencil&apos;]&quot;}
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Session ID: ed5e65e4-60cd-42c4-8353-b6514ec79545
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=18.0.2}]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:302)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:387)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:523)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:521)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:130)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//tr[@rel=&apos;null&apos;]/td[5]/a[@class=&apos;edit ss_sprite ss_pencil&apos;]&quot;}
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8251)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8260)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10222)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10227)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10167)
+</error>
+  </testcase>
+  <testcase classname="portal.USERS" name="PORTAL_USERS_013" time="10.177">
+    <error message="Timed out after 5 seconds waiting for visibility of element located by By.xpath: //tr[@rel=&apos;null&apos;]/td[5]/a[@class=&apos;delete ss_sprite ss_delete&apos;]&#xa;Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;&#xa;System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;&#xa;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for visibility of element located by By.xpath: //tr[@rel=&apos;null&apos;]/td[5]/a[@class=&apos;delete ss_sprite ss_delete&apos;]
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:255)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:224)
+	at portal.USERS.PORTAL_USERS_013(USERS.java:284)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//tr[@rel=&apos;null&apos;]/td[5]/a[@class=&apos;delete ss_sprite ss_delete&apos;]&quot;}
+Command duration or timeout: 15 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Session ID: ed5e65e4-60cd-42c4-8353-b6514ec79545
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=18.0.2}]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:302)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:387)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:523)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:521)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:130)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//tr[@rel=&apos;null&apos;]/td[5]/a[@class=&apos;delete ss_sprite ss_delete&apos;]&quot;}
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8251)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8260)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10222)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10227)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10167)
+</error>
+  </testcase>
+  <testcase classname="portal.USERS" name="PORTAL_USERS_014" time="5.197">
+    <error message="Timed out after 5 seconds waiting for visibility of element located by By.xpath: //tr[@rel=&apos;null&apos;]/td[5]/a[@class=&apos;delete ss_sprite ss_delete&apos;]&#xa;Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;&#xa;System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;&#xa;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for visibility of element located by By.xpath: //tr[@rel=&apos;null&apos;]/td[5]/a[@class=&apos;delete ss_sprite ss_delete&apos;]
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:255)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:224)
+	at portal.USERS.PORTAL_USERS_014(USERS.java:298)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//tr[@rel=&apos;null&apos;]/td[5]/a[@class=&apos;delete ss_sprite ss_delete&apos;]&quot;}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Session ID: ed5e65e4-60cd-42c4-8353-b6514ec79545
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=18.0.2}]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:302)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:387)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:523)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:521)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:130)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//tr[@rel=&apos;null&apos;]/td[5]/a[@class=&apos;delete ss_sprite ss_delete&apos;]&quot;}
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8251)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8260)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10222)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10227)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10167)
+</error>
+  </testcase>
+  <testcase classname="portal.USERS" name="PORTAL_USERS_015" time="5.255">
+    <error message="Timed out after 5 seconds waiting for visibility of element located by By.xpath: //div[contains(.,&apos;User Properties&apos;)]/button[@class=&apos;new primary&apos;]&#xa;Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;&#xa;System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;&#xa;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 5 seconds waiting for visibility of element located by By.xpath: //div[contains(.,&apos;User Properties&apos;)]/button[@class=&apos;new primary&apos;]
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:255)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:224)
+	at portal.USERS.PORTAL_USERS_015(USERS.java:312)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(.,&apos;User Properties&apos;)]/button[@class=&apos;new primary&apos;]&quot;}
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Session ID: ed5e65e4-60cd-42c4-8353-b6514ec79545
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, browserConnectionEnabled=true, nativeEvents=true, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=18.0.2}]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:187)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:533)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:302)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:387)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:294)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:523)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:521)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:130)
+	at org.openqa.selenium.support.ui.ExpectedConditions$4.apply(ExpectedConditions.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(.,&apos;User Properties&apos;)]/button[@class=&apos;new primary&apos;]&quot;}
+Build info: version: &apos;2.28.0&apos;, revision: &apos;18309&apos;, time: &apos;2012-12-11 20:21:18&apos;
+System info: os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_10&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8251)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:8260)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10222)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10227)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/GALBAN~1/AppData/Local/Temp/anonymous7766290115581070765webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10167)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
